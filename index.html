@@ -22,7 +22,7 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
 
-<body>
+<body style="cursor:default;">
 
     <!-- Wrapper-->
     <div id="wrapper">
@@ -113,9 +113,9 @@
             <article id="contact" class="panel">
                 <header>
                     <h2>Say Hello</h2>
-                </header>
-                <form id="contact-form">
-                    <!-- Hidden message to show if contact is successful. -->
+                    
+                    <div id="submitstatus">
+                        <!-- Hidden message to show if contact is successful. -->
                     <div id="submit-success" class="collapse">
                         Message received!
                     </div>
@@ -124,6 +124,10 @@
                     <div id="submit-errors" class="collapse">
                         It looks like there was an error submitting the form. Please try again later.
                     </div>
+                    </div>
+                </header>
+                <form id="contact-form">
+                
                     <div>
                         <div class="row">
                             <div class="6u 12u$(mobile)">

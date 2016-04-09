@@ -899,6 +899,7 @@ table.default thead {
 }
 
 
+
 /* Form */
 
 form label {
@@ -961,6 +962,10 @@ form:-ms-input-placeholder {
     display: none;
 }
 
+#submitstatus{
+    text-align:center;
+    padding-top:10px;
+}
 
 /* Section/Article */
 
@@ -1383,6 +1388,9 @@ ol.default li {
         border-left: solid 0.6em transparent;
         border-right: solid 0.6em transparent;
     }
+    a {
+    cursor:default;
+}
     #nav a:hover {
         opacity: .5;
     }
@@ -1586,6 +1594,10 @@ ol.default li {
         line-height: 1.35em;
         margin: 0 0.25em 0 0.25em;
     }
+     #nav a:hover {
+        opacity: .5;
+    }
+    
     #nav a:active {
         opacity: .5;
     }
