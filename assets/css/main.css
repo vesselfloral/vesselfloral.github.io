@@ -1340,8 +1340,12 @@
 		#gallery {
   display: block;
   max-width: 900px;
+            
   /*margin: 0 auto;*/
 }
+        #gallery li{
+            cursor: pointer;
+        }
 
 		#portfolio {
 			display: block;
@@ -1356,9 +1360,6 @@
   		margin-bottom: 20px;
 		}
         
-        #portfolio a {
-            cursor: pointer;
-        }
 
 		/* Panels */
 
