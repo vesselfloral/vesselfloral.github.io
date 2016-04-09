@@ -793,7 +793,7 @@ body {
     background-size: auto, 100% 100%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    color: #777777;
+    color: #333333;
 }
 
 body.is-loading *,
@@ -1520,7 +1520,10 @@ ol.default li {
     }
     body {
         background-size: auto, 30%;
+        background-color:#333333;
+        background-image:none;
     }
+    
     h1,
     h2 {
         font-size: 1.75em;
@@ -1574,7 +1577,6 @@ ol.default li {
     }
     #nav a {
         font-size: 1em;
-        /*opacity: 0.5;*/
         outline: 0;
         width: 3em;
         height: 1.5em;
@@ -1638,6 +1640,7 @@ ol.default li {
     #gallery li {
         display: inline-block;
         vertical-align: middle;
+        padding: 0 3px;
         /*margin: 0 auto;*/
     }
 
