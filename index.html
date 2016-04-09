@@ -11,12 +11,12 @@
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- jQuery 1.7.2+ -->
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js">
+    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js">
     </script>
 
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -180,7 +180,7 @@
         $("#contact-form").validate({
             submitHandler: function (form) {
                 $.ajax({
-                    url: "https://formspree.io/hello@priscillaslatton.com"
+                    url: "//formspree.io/hello@priscillaslatton.com"
                     , method: "POST"
                     , data: {
                         name: $(form).find("input[name='name']").val()
@@ -219,12 +219,10 @@
         });
     </script>
 
-    <!-- <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>-->
-
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/skel-viewport.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    [if lte IE 8]><script src="assets/js/ie/respond.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
