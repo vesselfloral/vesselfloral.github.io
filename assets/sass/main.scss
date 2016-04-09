@@ -241,7 +241,7 @@
 		background-color: #222222;
 		color: #ffffff;
 		border: 0;
-		cursor: pointer;
+		cursor: default;
 		outline: 0;
 		@include vendor('transition', 'background-color .25s ease-in-out');
 
