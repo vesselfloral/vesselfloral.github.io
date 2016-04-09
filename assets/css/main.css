@@ -1531,8 +1531,8 @@ ol.default li {
     }
     body {
         background-size: auto, 30%;
-        background-color:#333333;
-        background-image:none;
+        /*background-color:#333333;
+        background-image:none; */
     }
     
     h1,
